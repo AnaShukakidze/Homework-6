@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.container {
+    /* max-width: 1440px;
+    width: 100%; */
+    width: min(100%, 1440px);
+    margin: auto;
+}
+
+/* header */
+header {
+    width: 100%;
+    background-color: #284069;
+    padding: 53px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoLink {
+    width: 54px;
+    height: 54px;
+}
+
+.headerNav {
+    width: 393px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.active,
+.inactive {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 27.58px;
+    color: #DDEAF8;
+}
+
+.active {
+    color: #E29770;
+}
+
+/* section */
+.mainSection {
+    width: calc(1244 / 1440 * 100%);
+    margin: 90px auto;
+}
+
+.sectionTitle {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36.77px;
+    color: #942C0D;
+    margin-bottom: 64px;
+}
+
+.childSection {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+article {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #DDEAF8;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.articleImage {
+    width: 340px;
+    height: 220px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+button {
+    width: 145px;
+    height: 44px;
+    background-color: #E29770;
+    border: none;
+    border-radius: 10px;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: 239px;
+    background-color: #284069;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.footerTitle {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 8px;
+
+    /* es mewera da ar imushava:( */
+    /* text-decoration: underline #FFFFFF solid 3px; */
+}
+
+.footerNav {
+    width: 118px;
+}
+
+.footerLink {
+    width: 18px;
+    height: 18px;
+}
